@@ -1,16 +1,16 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin:5px;
+  padding:5px;
   font-family: Helvetica;
 }
 
-#octocat {
-  display: block;
-  width:100px;
-  margin: 50px auto;
+h2{
+  font-size: 20px;
+  background-color: navy
+  color: white
 }
 
-p {
+a,li,p {
   font-size: 18px;
-  color: darkorange;
+  color: navy;
 }
