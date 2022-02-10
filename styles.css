@@ -14,3 +14,7 @@ a,li,p {
   font-size: 18px;
   color: navy;
 }
+
+li{
+padding:2px;
+}
