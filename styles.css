@@ -27,7 +27,7 @@ footer {
 
 section{
   font-size: 15px;
-  background-image: url("Backgrounds/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg");
+  background: url("Backgrounds/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg"); !important
 }
 
 /* Create two columns/boxes that float next to each other ----------------------------------- */
