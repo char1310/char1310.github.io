@@ -59,10 +59,7 @@ section::after {
     
 }
 .pages a:{
-    text-decoration: none;
-}
-.pages a:hover {
-    border-bottom: 1px solid black;
+    text-decoration: none !important;
 }
 
 .logos img {
