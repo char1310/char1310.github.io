@@ -1,15 +1,28 @@
+
 * {
+  box-sizing: border-box;
   margin:5px;
   padding:5px;
   font-family: Helvetica;
   background-color: #6495ED
-  border-bottom: 4px navy
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header --------------------------------------------------------------------- */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 
 h2{
   font-size: 20px;
-  background-color: navy
-  color: white
+  color: navy
 }
 
 a,li,p {
@@ -17,27 +30,43 @@ a,li,p {
   color: navy;
 }
 
+/* Create two columns/boxes that floats next to each other ----------------------------------- */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
 
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+}
 
+/* Clear floats after the columns ------------------------------------- */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer---------------------------------------------------- */
+footer {
+  background-color: navy;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+/* Transform the logos------------------------------------------------- */
 .logos img {
     transition: transform 0.2s;
     transform: scale(1);
     margin-right: 20px;
 }
-
 .logos img:hover {
     transition: transform 0.15s;
     transform: scale(1.4)
 }
-
-.nav_link_wrapper {
-    height: 22px;
-    border-bottom: 1px solid transparent;
-}
-
-.nav_link_wrapper a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
