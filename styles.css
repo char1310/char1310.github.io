@@ -8,11 +8,11 @@ header {
   background-color: #6495ED;
   padding: 10px 3% 10px;
   text-align: left;
-  font-size: 15px;
+  font-size: 10px;
   color: white;
 }
 footer {
-  background-color: #6495ED
+  background-color: #6495ED !important
   padding: 10px 3% 10px;
   text-align: left;
   font-size: 15px;
@@ -25,16 +25,12 @@ footer {
 
 /* Style the main body --------------------------------------------------------------------- */
 
-section.h2{
+section{
   font-size: 20px;
   color: white;
 }
-section.p,section.a,section.li {
-  font-size: 18px;
-  color: white;
-}
 
-/* Create two columns/boxes that floats next to each other ----------------------------------- */
+/* Create two columns/boxes that float next to each other ----------------------------------- */
 nav {
   float: left;
   width: 10%;
@@ -50,12 +46,12 @@ article {
   font-color: white
 }
 
-/* Clear floats after the columns ------------------------------------- */
+/* Clear floats after the columns ------------------------------------- 
 section::after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Transform links ------------------------------------------------------------------------ */
 
