@@ -2,7 +2,8 @@
   margin:5px;
   padding:5px;
   font-family: Helvetica;
-  background-color: #9EB599
+  background-color: #6495ED
+  border-bottom: 4px navy
 }
 
 h2{
@@ -16,11 +17,57 @@ a,li,p {
   color: navy;
 }
 
-li{
-padding:2px;
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.im  {
-float: left;    
- margin: 0 15px 0 0;
+/* Navigation Styles */
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: navy;
 }
+
+.LHS {
+    display: flex;
+}
+
+.RHS {
+    display: flex;
+    color: white;
+}
+
+.nav_wrapper > .LHS > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav_wrapper > .RHS > div {
+    display: flex
+}
+
+.nav_wrapper > .RHS > .logos img {
+    transition: transform 0.2s;
+    transform: scale(1);
+    margin-right: 20px;
+}
+
+.nav_wrapper > .RHS > .logos img:hover {
+    transition: transform 0.15s;
+    transform: scale(1.4)
+}
+
+.nav_link_wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+}
+
+.nav_link_wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
