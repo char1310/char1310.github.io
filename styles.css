@@ -27,10 +27,9 @@ footer {
 
 section{
   font-size: 15px;
-  background: url("Backgrounds/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg") !important;
 }
 
-/* Create two columns/boxes that float next to each other ----------------------------------- */
+/* Create two columns/boxes that float next to each other for section ----------------------------------- */
 nav {
   float: left;
   width: 10%;
@@ -42,6 +41,7 @@ article {
   float: left;
   width: 90%;
   padding: 20px 3% 20px;
+  background: url("Backgrounds/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg") !important;
   font-color: white
 }
 
