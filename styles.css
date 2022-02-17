@@ -17,45 +17,15 @@ a,li,p {
   color: navy;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
-/* Navigation Styles */
-.nav_wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-    background-color: navy;
-}
 
-.LHS {
-    display: flex;
-}
-
-.RHS {
-    display: flex;
-    color: white;
-}
-
-.nav_wrapper > .LHS > div {
-    margin-right: 20px;
-    font-size: 0.9em;
-    text-transform: uppercase;
-}
-
-.nav_wrapper > .RHS > div {
-    display: flex
-}
-
-.nav_wrapper > .RHS > .logos img {
+.logos img {
     transition: transform 0.2s;
     transform: scale(1);
     margin-right: 20px;
 }
 
-.nav_wrapper > .RHS > .logos img:hover {
+.logos img:hover {
     transition: transform 0.15s;
     transform: scale(1.4)
 }
