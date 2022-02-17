@@ -36,6 +36,7 @@ nav {
   float: left;
   width: 10%;
   padding: 20px 3% 20px;
+  text-transform: uppercase;
   background-color: white; !important
   font-color: black;
 }
@@ -55,14 +56,16 @@ section::after {
 
 /* Transform links ------------------------------------------------------------------------ */
 
-.pages a {
+.pages {
     transition: transform 0.2s;
     transform: scale(1);
     margin-right: 20px;
+    text-decoration: none;
 }
-.pages a:hover {
+.pages:hover {
     transition: transform 0.2s;
     transform: scale(1.4)
+    border-bottom: 1px solid black;
 }
 
 
