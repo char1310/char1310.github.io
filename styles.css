@@ -1,34 +1,31 @@
-
 * {
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
 }
 
-
 /* Style the header and footer --------------------------------------------------------------------- */
 header {
   background-color: #6495ED;
-  padding: 30px;
+  padding: 10px 3% 10px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+}
+footer {
+  background-color: #6495ED
+  padding: 10px 3% 10px;
   text-align: left;
   font-size: 35px;
   color: white;
 }
 
-footer {
-  background-color: #6495ED
-  padding: 10px;
-  text-align: left;
-  color: white;
-}
-
 /* Style the main body --------------------------------------------------------------------- */
 
-h2{
+section.h2{
   font-size: 20px;
-  color: navy
+  color: navy;
 }
-
-a,li,p {
+section.p,section.a,section.li {
   font-size: 18px;
   color: navy;
 }
@@ -37,16 +34,15 @@ a,li,p {
 nav {
   float: left;
   width: 20%;
-  background: #ccc;
-  padding: 20px;
-  background-color: white;
+  padding: 20px 3% 20px;
+  background-color: black;
+  font-color: white;
 }
-
 article {
   float: left;
-  padding: 20px;
   width: 80%;
-  background-color: grey;
+  padding: 20px 3% 20px;
+  background-color: white;
 }
 
 /* Clear floats after the columns ------------------------------------- */
