@@ -17,7 +17,6 @@ footer {
   text-align: left;
   font-size: 15px;
   color: white;
-  background-colour: grey;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -40,15 +39,15 @@ nav {
   float: left;
   width: 20%;
   padding: 20px 3% 20px;
-  background-color: black;
-  font-color: white;
+  background-color: white;
+  font-color: black;
 }
 article {
   float: left;
   width: 80%;
   padding: 20px 3% 20px;
-  background-color: white;
-  
+  background-color: black;
+  font-color: white
 }
 
 /* Clear floats after the columns ------------------------------------- */
