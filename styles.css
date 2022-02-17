@@ -57,7 +57,19 @@ section::after {
   clear: both;
 }
 
-/* Transform the logos------------------------------------------------------------------------ */
+/* Transform links ------------------------------------------------------------------------ */
+
+.pages a {
+    transition: transform 0.2s;
+    transform: scale(1);
+    margin-right: 20px;
+}
+.pages a:hover {
+    transition: transform 0.2s;
+    transform: scale(1.4)
+}
+
+
 .logos img {
     transition: transform 0.2s;
     transform: scale(1);
