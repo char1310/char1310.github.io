@@ -12,7 +12,7 @@ header {
   color: white;
 }
 footer {
-  background-color: #6495ED !important
+  background-color: #6495ED !important;
   padding: 10px 3% 10px;
   text-align: left;
   font-size: 15px;
@@ -27,7 +27,7 @@ footer {
 
 section{
   font-size: 15px;
-  background: url("Backgrounds/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg"); !important
+  background: url("Backgrounds/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg") !important;
 }
 
 /* Create two columns/boxes that float next to each other ----------------------------------- */
@@ -35,7 +35,7 @@ nav {
   float: left;
   width: 10%;
   padding: 20px 3% 20px;
-  background-color: white; !important
+  background-color: white !important;
   font-color: black;
 }
 article {
