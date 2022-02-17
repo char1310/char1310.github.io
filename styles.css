@@ -27,24 +27,24 @@ footer {
 
 section.h2{
   font-size: 20px;
-  color: navy;
+  color: white;
 }
 section.p,section.a,section.li {
   font-size: 18px;
-  color: navy;
+  color: white;
 }
 
 /* Create two columns/boxes that floats next to each other ----------------------------------- */
 nav {
   float: left;
-  width: 20%;
+  width: 10%;
   padding: 20px 3% 20px;
   background-color: white;
   font-color: black;
 }
 article {
   float: left;
-  width: 80%;
+  width: 90%;
   padding: 20px 3% 20px;
   background-color: black;
   font-color: white
