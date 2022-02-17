@@ -56,9 +56,12 @@ section::after {
 
 .pages {
     margin-right: 20px;
+    
+}
+.pages a:{
     text-decoration: none;
 }
-.pages:hover {
+.pages a:hover {
     border-bottom: 1px solid black;
 }
 
