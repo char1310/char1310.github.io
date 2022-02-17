@@ -27,7 +27,6 @@ footer {
 
 section{
   font-size: 15px;
-  color: white;
   background-image: url("https://github.com/char1310/char1310.github.io/blob/master/Backgrounds/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg");
 }
 
@@ -36,7 +35,6 @@ nav {
   float: left;
   width: 10%;
   padding: 20px 3% 20px;
-  text-transform: uppercase;
   background-color: white; !important
   font-color: black;
 }
@@ -54,27 +52,19 @@ section::after {
   clear: both;
 } */
 
-/* Transform links ------------------------------------------------------------------------ */
+/* Links ------------------------------------------------------------------------ */
 
 .pages {
-    transition: transform 0.2s;
-    transform: scale(1);
     margin-right: 20px;
     text-decoration: none;
 }
 .pages:hover {
-    transition: transform 0.2s;
-    transform: scale(1.4)
     border-bottom: 1px solid black;
 }
 
-
 .logos img {
-    transition: transform 0.2s;
-    transform: scale(1);
     margin-right: 20px;
 }
 .logos img:hover {
-    transition: transform 0.2s;
     transform: scale(1.4)
 }
