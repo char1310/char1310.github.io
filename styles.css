@@ -42,6 +42,7 @@ article {
   width: 90%;
   padding: 20px 3% 20px;
   background: url("Backgrounds/chopped-pawel-czerwinski-SoB70WFVWGU-unsplash.jpg") !important;
+  background-repeat: repeat-y;
   font-color: white
 }
 
