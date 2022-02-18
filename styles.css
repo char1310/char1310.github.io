@@ -60,10 +60,12 @@ section::after {
 }
 .pages a{
     text-decoration: none !important;
+    font-color: black !important;
 }
 .pages a:hover{
     text-decoration: none !important;
     border-bottom: 1px solid black;
+    font-color: black !important;
 }
 
 .logos img {
