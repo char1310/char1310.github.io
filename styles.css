@@ -72,5 +72,5 @@ section::after {
     margin-right: 20px;
 }
 .logos img:hover {
-    transform: scale(1.4)
+    transform: scale(1.2)
 }
