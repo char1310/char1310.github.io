@@ -55,11 +55,14 @@ section::after {
 /* Links ------------------------------------------------------------------------ */
 
 .pages {
-    margin-right: 20px;
-    
+    margin-right: 20px;  
 }
-.pages a:{
+.pages a{
     text-decoration: none !important;
+}
+.pages a:hover{
+    text-decoration: none !important;
+    border-bottom: 1px solid black;
 }
 
 .logos img {
