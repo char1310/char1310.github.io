@@ -11,3 +11,5 @@ https://imagecolorpicker.com/en
 https://www.w3schools.com/w3css/default.asp
 
 https://unsplash.com/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
